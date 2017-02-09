@@ -9,7 +9,7 @@ env:
   global:
   - GH_REF: github.com/chad-autry/wac-python
 script:
-- docker build -t chadautry/wac-pythong:latest .
+- docker build -t chadautry/wac-python:latest .
 - if [[ ! -z "$TRAVIS_TAG" ]]; then docker tag chadautry/wac-python:latest chadautry/wac-python:$TRAVIS_TAG ; fi
 after_success:
 - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
