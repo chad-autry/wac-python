@@ -1,6 +1,10 @@
 # wac-python
 Containerized python for use with Ansible by wac-bp
 
+### Status
+[![Build Status](https://travis-ci.org/chad-autry/wac-python.svg?branch=master)](https://travis-ci.org/chad-autry/wac-python)
+[![Docker Hub](https://img.shields.io/badge/docker-ready-blue.svg)](https://registry.hub.docker.com/u/chadautry/wac-python/)
+
 # Setup
 ```shell
 sudo mkdir -p /opt/bin
