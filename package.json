@@ -1,6 +1,6 @@
 {
   "name": "wac-python",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Docker containerized python for use by wac-bp and ansible",
   "repository": {
     "type": "git",
