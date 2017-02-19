@@ -9,6 +9,6 @@ RUN apk add --no-cache \
     py-pip \
     py-setuptools \
     py-yaml && \
-    pip install --upgrade pip python-keycza
+    pip install --upgrade pip python-keyczar
 COPY python.sh /usr/bin/python.sh
 ENTRYPOINT ["/usr/bin/python"]
