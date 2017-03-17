@@ -8,7 +8,8 @@ RUN apk add --no-cache \
     py-paramiko \
     py-pip \
     py-setuptools \
-    py-yaml && \
+    py-yaml \
+    ca-certificates && \
     pip install --upgrade pip python-keyczar apache-libcloud
 COPY python.sh /usr/bin/python.sh
 ENTRYPOINT ["/usr/bin/python"]
